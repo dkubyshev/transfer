@@ -1,0 +1,5 @@
+CREATE TABLE "account" (
+  "id" BIGINT PRIMARY KEY AUTO_INCREMENT,
+  "name" VARCHAR(60),
+  "balance" DECIMAL(20,2)
+);
